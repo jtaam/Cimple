@@ -1,2 +1,16 @@
-[requires]
-python_version = "3.6.4"
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+django = "==2.0.1"
+gunicorn = "*"
+pytz = "==2017.3"
+
+
+[dev-packages]
+
